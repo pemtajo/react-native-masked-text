@@ -1,39 +1,58 @@
 {
-	"name": "react-native-masked-text",
-	"version": "1.6.5",
-	"description": "Text and TextInput with mask for React Native applications",
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "https://www.opensource.org/licenses/mit-license.php"
-		}
-	],
-	"main": "./dist/index.js",
-	"scripts": {
-		"clean": "rimraf dist",
-		"test": "jest",
-		"build": "babel ./index.js ./lib/*.js ./lib/**/*.js -d ./dist",
-		"prepublish": "npm run clean && npm run build"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/benhurott/react-native-masked-text.git"
-	},
-	"keywords": ["mask", "text", "textinput", "react-native"],
-	"author": "Ben-hur Santos Ott",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/benhurott/react-native-masked-text/issues"
-	},
-	"homepage": "https://github.com/benhurott/react-native-masked-text#readme",
-	"dependencies": {
-		"moment": "^2.19.1",
-		"tinymask": "^1.0.2"
-	},
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-preset-react-native": "^1.9.1",
-		"jest": "^19.0.2",
-		"rimraf": "^2.6.2"
-	}
+  "_from": "git://github.com/EuAndreh/react-native-masked-text.git#master",
+  "_id": "react-native-masked-text@1.3.3",
+  "_inBundle": false,
+  "_integrity": "sha1-dTYC8b3ydTmU3Z0l+8bbTBcy7G0=",
+  "_location": "/react-native-masked-text",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-masked-text@git://github.com/EuAndreh/react-native-masked-text.git#master",
+    "name": "react-native-masked-text",
+    "escapedName": "react-native-masked-text",
+    "rawSpec": "git://github.com/EuAndreh/react-native-masked-text.git#master",
+    "saveSpec": "git://github.com/EuAndreh/react-native-masked-text.git#master",
+    "fetchSpec": "git://github.com/EuAndreh/react-native-masked-text.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/EuAndreh/react-native-masked-text.git#d2904c6199021014f1b71b4525e26698d0a9d685",
+  "_spec": "react-native-masked-text@git://github.com/EuAndreh/react-native-masked-text.git#master",
+  "_where": "/home/andreh/dev/nu/ghostflame",
+  "author": {
+    "name": "Ben-hur Santos Ott"
+  },
+  "bugs": {
+    "url": "https://github.com/benhurott/react-native-masked-text/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "deprecated": false,
+  "description": "Text and TextInput with mask for React Native applications",
+  "devDependencies": {
+    "babel-preset-react-native": "^1.9.1",
+    "jest": "^19.0.2"
+  },
+  "homepage": "https://github.com/benhurott/react-native-masked-text#readme",
+  "keywords": [
+    "mask",
+    "text",
+    "textinput",
+    "react-native"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-masked-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhurott/react-native-masked-text.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.3.3"
 }
